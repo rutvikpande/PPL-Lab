@@ -1,5 +1,6 @@
 ---------------------
-B-1 Function Inlining
+#B1 
+#Function Inlining
 ---------------------
 
         In this program we  observe how the code of a function  is placed in the
