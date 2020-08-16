@@ -1,5 +1,5 @@
 #Assignment 1
-SOLUTION TO PROBLEM B2
+#B2
 gimple
 SSA
 ---
