@@ -1,0 +1,32 @@
+(|SYSTEM|::|VERSION| '(20080430.))
+#0Y_ #0Y |CHARSET|::|UTF-8|
+#Y(#:|1 3 (WRITE-LINE "Enter list : ")-1|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 03 31 96 19 01) ("Enter list : ")
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|4 4 (SETF L (READ-FROM-STRING #))-2|
+   #28Y(00 00 00 00 00 00 00 00 20 01 DA DB 38 04 71 82 DC 73 03 26 38 05 31 89
+        0F 03 19 01)
+   (|COMMON-LISP|::|STRING| "(" ")" |COMMON-LISP-USER|::|L|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|5 5 (WRITE-LINE "Enter index : ")-3|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 03 31 96 19 01) ("Enter index : ")
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|6 6 (SETF INDEX (READ))-4|
+   #18Y(00 00 00 00 00 00 00 00 20 01 38 04 31 7F 0F 00 19 01)
+   (|COMMON-LISP-USER|::|INDEX|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|7 7 (SETF RES (NTH INDEX L))-5|
+   #20Y(00 00 00 00 00 00 00 00 20 01 6B 00 6B 01 31 A1 0F 02 19 01)
+   (|COMMON-LISP-USER|::|INDEX| |COMMON-LISP-USER|::|L|
+    |COMMON-LISP-USER|::|RES|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|8 8 (FORMAT T "Element at position ~d : ~d" ...)-6|
+   #22Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 6B 02 6B 03 33 03 15 19 01)
+   (#Y(#:|8 8 (FORMAT T "Element at position ~d : ~d" ...)-6-1|
+       #39Y(00 00 00 00 03 00 00 00 21 19 DA B1 38 02 31 95 B0 01 06 B6 2D 08
+            01 DC B1 38 02 31 95 B0 01 06 B5 2D 08 01 9E 19 05)
+       ("Element at position " |SYSTEM|::|DO-FORMAT-DECIMAL| " : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|INDEX|
+    |COMMON-LISP-USER|::|RES|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
