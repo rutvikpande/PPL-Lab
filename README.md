@@ -1,8 +1,11 @@
 MIS No:111903076
 
-List of experiment
+List of experiment:
 
-Experiment `1:Hello world
+Experiment `1:Hello world.
+
+
+List of Assignments:
 
 Assignment 1:Creating Gimple Files.
 
