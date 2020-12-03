@@ -20,6 +20,8 @@ Assignment 7:Event and Event Handling using Object Oriented Programming.
 
 Assignment 8:Exception Handling.
 
+Assignment 9:Writing function in LISP. 
+
 Assignment 10:Course Tracking at a institute using PROLOG.
 
 
